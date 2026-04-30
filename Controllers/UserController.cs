@@ -74,8 +74,10 @@ namespace Backend.Controllers
 
                 return Ok(new
                 {
+                    userName = user.UserName,
+                    email = user.Email,
                     token = token,
-                    email = user.Email
+                    
                 });
             }
             return Unauthorized();
