@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Backend.Models
+namespace SurveyAppBackend.DTOs.User
 {
     public class Login
     {

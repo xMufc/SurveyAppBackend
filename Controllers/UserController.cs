@@ -2,8 +2,8 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Backend.Entites;
-using Backend.Models;
 using Backend.Services;
+using SurveyAppBackend.DTOs.User;
 
 namespace Backend.Controllers
 {
