@@ -1,6 +1,6 @@
 ﻿namespace SurveyAppBackend.DTOs.Survey
 {
-    public class AllSurveysDto
+    public class AllUserSurveysDto
     {
         public Guid Id { get; set; }
         public string Title { get; set; }

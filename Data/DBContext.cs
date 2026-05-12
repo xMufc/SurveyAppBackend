@@ -53,7 +53,7 @@ namespace Backend.Data
                 .HasOne(a => a.Response)
                 .WithMany(r => r.Answers)
                 .HasForeignKey(a => a.ResponseId)
-                .OnDelete(DeleteBehavior.Restrict);
+                .OnDelete(DeleteBehavior.Cascade);
 
             // Answer => Question
             modelBuilder.Entity<Answer>()

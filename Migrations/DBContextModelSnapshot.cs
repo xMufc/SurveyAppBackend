@@ -411,7 +411,7 @@ namespace Backend.Migrations
                     b.HasOne("SurveyAppBackend.Entities.Response", "Response")
                         .WithMany("Answers")
                         .HasForeignKey("ResponseId")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Option");
